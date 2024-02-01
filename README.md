@@ -77,7 +77,9 @@ Medical, Marketing, Technical Degree, Other, Human Resources)
 - F1 Score of Model:  0.9597701149425287
 
  ## Conclusion
-lima faktor utama yang mempengaruhi Attrition yaitu Overtime, MonthlyIncome, Age, DailyRate, MonthlyRate
+- lima faktor utama yang mempengaruhi Attrition yaitu Overtime, MonthlyIncome, Age, DailyRate, MonthlyRate
+- Job Role yang paling sering lembur dan tingkat Attritionnya tinggi yaitu Research Scientist, namun berdasarkan Avg Monthly Income yang didapatkan justru Research Scientist yang paling rendah
 
  ## Recomendation Action
-Overtime dan MonthlyIncome dua faktor utama yang berdekatan. Maka dari itu, karyawan yang lembur harus diberikan upah tambahan yang sesuai
+- Overtime dan MonthlyIncome dua faktor utama yang berdekatan. Maka dari itu, karyawan yang lembur harus diberikan upah tambahan yang sesuai
+- Untuk Job Role sebagai Research Scientist perlu diperhatikan kesejahterannya lagi karena paling sering lembur dan tingkat Attritionnya tinggi, namun Avg Monthly Income paling rendah diantara job role yang lain
