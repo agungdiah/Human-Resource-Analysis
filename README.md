@@ -50,6 +50,35 @@ Medical, Marketing, Technical Degree, Other, Human Resources)
 *  YearsSinceLastPromotion : kolom ini berisi tahun kenaikan jabatan terakhir kali
 *  YearsWithCurrManager: kolom ini berisi jumlah tahun bekerja dengan  manajer saat ini.
 
+## Data Preparation / Preprocessing
+1. Gathering Data
+2. Accessing Data
+3. Cleaning Data:
+   - Penanganan Missing Value
+   - Penanganan Duplicated value
+   - drop column yang tidak memiliki meaningful insights
+   - replace those labelled numerical values with appropriate categorical values.
 
- 
+ ## Exploratory Data Analysis
+ Visualisasi Data untuk menemukan insight:
+ 1.  Dari total keseluruhan karyawan proporsi karyawan yang keluar adalah 16.9% dan proporsi karyawan yang masih stay adalah 83.1%. Attrition memiliki bias yang tinggi (kecenderungan atau dominasi terhadap kategori "No")
+ 2.  Berdasarkan department, departemen yang paling banyak memiliki jumlah karyawan yang keluar adalah Research and Development, selanjutnya Sales Departemen  dan yang paling rendah adalah Human Resource
+ 3.  Berdasarkan job role, job role dengan karyawan yang jumlah keluarnya paling tinggi yaitu sebagai Laboratory Technician, sedangkan job role dengan karyawan yang jumlah keluarnya paling sedikit adalah Research Director
 
+## Model Machine Learning
+1. Pengubahan tipe data categorical menjadi numerical
+2. Pemisahan Atribut dan Target
+3. Resampling untuk penanganan Class Imbalance
+4. Spliting data into Training and Testing
+5. Model Development
+Diperoleh hasil sebagai berikut
+- Accuracy Score of Model:  0.9602272727272727
+- Precision Score of Model:  0.9597701149425287
+- Recall Score of Model:  0.9597701149425287
+- F1 Score of Model:  0.9597701149425287
+
+ ## Conclusion
+lima faktor utama yang mempengaruhi Attrition yaitu Overtime, MonthlyIncome, Age, DailyRate, MonthlyRate
+
+ ## Recomendation Action
+Overtime dan MonthlyIncome dua faktor utama yang berdekatan. Maka dari itu, karyawan yang lembur harus diberikan upah tambahan yang sesuai
