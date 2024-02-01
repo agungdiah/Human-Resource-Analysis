@@ -1,8 +1,7 @@
 # Human Resource Analysis
 
 Visualisasi dapat diakses melalui link berikut:
-- https://public.tableau.com/views/HumanResourceDashboard_17065943141200/Dashboard3?:language=en-US&:display_count=n&:origin=viz_share_link. Pada dashboard ini User dapat memfilter data sesuai dengan status dari Attrition Rate
-  Attrition
+- https://public.tableau.com/views/HumanResourceDashboard_17065943141200/Dashboard3?:language=en-US&:display_count=n&:origin=viz_share_link. Pada dashboard ini User dapat memfilter data sesuai dengan status dari Attrition
 - https://github.com/agungdiah/Human-Resource-Analysis/blob/master/Human%20Resource%20Dashboard.pdf
 
 ## Business Understanding
