@@ -71,7 +71,6 @@ Medical, Marketing, Technical Degree, Other, Human Resources)
 3. Resampling untuk penanganan Class Imbalance
 4. Spliting data into Training and Testing
 5. Model Development
-Diperoleh hasil sebagai berikut
 - Accuracy Score of Model:  0.9602272727272727
 - Precision Score of Model:  0.9597701149425287
 - Recall Score of Model:  0.9597701149425287
